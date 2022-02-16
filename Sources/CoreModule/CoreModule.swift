@@ -1,7 +1,7 @@
 import Foundation
-import APIClient
-import APIClientModule
-import HTTPClientModule
+@_exported import APIClient
+@_exported import APIClientModule
+@_exported import HTTPClientModule
 
 public class CoreModule {
     public private(set) var text = "Hello, World!"
